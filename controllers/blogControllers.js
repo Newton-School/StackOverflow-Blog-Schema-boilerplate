@@ -1,7 +1,7 @@
-const Blog   = require("../models/Blog.js");
+const Blog   = require("../models/blog.js");
 
 
-const getallblog =async (req, res) => {
+const getAllBlog = async (req, res) => {
 
     const all_blog = await Blog.find({});
     res.status(200).json({
@@ -11,4 +11,4 @@ const getallblog =async (req, res) => {
    
 }
 
-module.exports = { getallblog };
+module.exports = { getAllBlog };
