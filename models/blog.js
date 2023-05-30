@@ -9,9 +9,9 @@ const mongoose = require("mongoose");
 
 */
 
-const discussionSchema = mongoose.Schema({
+const blogSchema = mongoose.Schema({
   //Write your code here.
 });
 
-module.exports = mongoose.model("Discussion", discussionSchema);
+module.exports = mongoose.model("Blog", blogSchema);
 
